@@ -1,0 +1,30 @@
+/* styles.css */
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url('vector-medical-concept-with-doctor-and-patients-in-flat-cartoon-at-hospital-hall.jpg');
+}
+.appointment-list {
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+}
+.appointment-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.appointment-details {
+
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #63e2ad;
+}
+.appointment-item:hover .appointment-details {
+    display: block;
+}

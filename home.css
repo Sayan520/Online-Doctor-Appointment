@@ -1,0 +1,66 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+    background-image: url('homepage.jpg'); /* Replace with your image path */
+    background-size:contain ;
+    background-position:unset ;
+    color: #fff;
+    background-repeat: no-repeat;
+    height:fit-content ;
+    image-orientation: initial;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0; /* Adjusted padding for better spacing */
+}
+
+header h1 {
+    font-size: 35px;
+    color: #a32c2c;
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column; /* or row, depending on your layout */
+    align-items: center;
+   /* justify-content: flex-end; /* Align to the bottom of the container */
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjusted margin for better spacing */
+    margin-left:700px;
+}
+
+#login-container h2 {
+    font-size: 25px;
+    color: #0b416d;
+    margin-bottom: 20px;
+    
+}
+
+
+#login-button {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    text-align: center;
+    color: #7517e0;
+    padding: 20px 0; /* Adjusted padding for better spacing */
+    background-color: #333; /* Dark background color for footer */
+    margin-top: 250px;
+}

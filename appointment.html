@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Dashboard</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Appointment Dashboard</h2>
+        <h4>Patient Information</h4>
+        <form id="registrationForm" action="appointment.php" method="post">
+            <label for="name">User Name:</label>
+            <input type="text" id="name" name="username">            
+            <label for="appointmentDate">Appointment Date:</label>
+            <input type="date" id="appointmentDate" name="date">
+            <label for="select">Preferred Physician:</label>
+            <div class="custom_select">
+                <select name="physician" >
+                   <option value="Dr. Sayan">Dr. Sayan</option>
+                   <option value="Dr. Ghosh">Dr. Ghosh</option>
+                   <option value="Dr. Swastik">Dr. Swastik</option>
+                   <option value="Dr. Smith">Dr. Smith</option>
+                   <option value="No Preference">No Preference</option>
+                </select>
+            </div>
+            <label for="appointmentTime">Appointment Time:</label>
+            <input type="time" id="appointmentTime" name="time">
+            <label for="appointmentTitle">Appointment Title:</label>
+            <input type="text" id="appointmentTitle" name="apt_title">
+            <input type="submit" value="Appointment" name="appointment" class="btn" onclick="addAppointment()">
+            <div id="appointmentList">               
+               <ul id="appointments">                
+               </ul>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
