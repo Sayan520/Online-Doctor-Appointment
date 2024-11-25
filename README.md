@@ -1,5 +1,7 @@
 # Online Doctor Appointment Portal
 
+![Homepage Screenshot](homepage.jpg)
+
 An interactive web portal designed for patients to register, log in, and book appointments with doctors seamlessly. The system is built to enhance user experience, ensure data security, and provide actionable insights using analytics. 
 
 ## Objectives
