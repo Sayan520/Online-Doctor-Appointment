@@ -41,8 +41,8 @@ CREATE TABLE `appointment_details` (
 --
 
 INSERT INTO `appointment_details` (`username`, `apt_id`, `date`, `physician`, `time`, `apt_title`) VALUES
-('Bijay Jana', '10828', '2024-03-06', 'Dr. Anderson', '14:46', 'For Check Up'),
-('eee44', '73994', '2024-03-07', 'Dr. Anderson', '13:14', 'udhfhgh');
+('Sayan Ghosh', '10828', '2025-03-06', 'Dr. Ghosh', '14:46', 'For Check Up'),
+('Sayan', '73994', '2024-03-07', 'Dr. Sayan', '13:14', 'udhfhgh');
 
 -- --------------------------------------------------------
 
@@ -61,10 +61,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `Email`, `Password`) VALUES
-('Bijay', 'bijayjana02@gmail.co', '123'),
-('Bijay Jana', 'bijayjana02@gmail.co', '1234'),
-('Bijay1 Jan', 'bijayjana02@gmail.co', '2345'),
-('eee44', 'kdjjjgjg@gmail.com', 'hg');
+('Sayan', 'ghoshsayan5205@gmail.com', '123'),
+('Sayan Ghosh', 'ghoshsayan5205@gmail.co', '1234'),
+('Bijay1 Jan', 'ghoshsayan520@gmail.com', '2345'),
+('abcd', 'abcd@gmail.com', 'hg');
 
 --
 -- Indexes for dumped tables
